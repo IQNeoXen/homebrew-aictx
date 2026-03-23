@@ -3,7 +3,7 @@ cask "aictx" do
   name "aictx"
   desc "Context switcher for AI tool configurations, inspired by kubectx."
   homepage "https://github.com/IQNeoXen/aictx"
-  version "0.0.8"
+  version "0.0.9"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "aictx" do
   on_macos do
     on_intel do
       url "https://github.com/IQNeoXen/aictx/releases/download/v#{version}/aictx_#{version}_darwin_amd64.tar.gz"
-      sha256 "84f43edeb62f805517d0c34215499fd683d42ebb7c8d935f2e010e38864fc520"
+      sha256 "22940ac021df2e115ad3eb3beb156bddd15224427cdd9247f0a9535417043d2b"
     end
     on_arm do
       url "https://github.com/IQNeoXen/aictx/releases/download/v#{version}/aictx_#{version}_darwin_arm64.tar.gz"
-      sha256 "ba5e24fc30564db0c7270f13c464ab4fa26c3b041bf42572be7d44a7a4115faf"
+      sha256 "288d5977b997e7660661438c528452188447234ca997fce24510962f0d6801fe"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/IQNeoXen/aictx/releases/download/v#{version}/aictx_#{version}_linux_amd64.tar.gz"
-      sha256 "4543b9b2561ff4808ccacf5d38acb7ef9f9c44846d301c7d01af7edeefb3a7c7"
+      sha256 "2b946eac06bf7722e5cf03777ab7572d54231bd6ad76d3a7261a857d2bc65a4d"
     end
     on_arm do
       url "https://github.com/IQNeoXen/aictx/releases/download/v#{version}/aictx_#{version}_linux_arm64.tar.gz"
-      sha256 "3989414cf5772ef218894fe9843f45e3b926aee97e8340e0a7e60d74c6506ccd"
+      sha256 "a69df9fe55b936d412f73530fe8611fb1aa939c33b42f194184a239f426ba778"
     end
   end
 
